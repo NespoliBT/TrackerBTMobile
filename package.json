@@ -1,4 +1,14 @@
 {
+  "expo": {
+    "name": "TrackerBT",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "slug": "trackerbt",
+    "android": {
+      "package": "com.nespolibt.trackerbt",
+      "versionCode": 1
+    }
+  },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -8,6 +18,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-community/slider": "^3.0.3",
+    "axios": "^0.20.0",
     "expo": "~39.0.2",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
